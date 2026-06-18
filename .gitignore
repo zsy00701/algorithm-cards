@@ -1,0 +1,25 @@
+# 个人/简历相关（不公开）
+public_resume_archive/
+templates/
+vlm_resume_resources.md
+scripts/crawl_public_resumes.py
+
+# 依赖与系统文件
+node_modules/
+.claude/
+.DS_Store
+**/.DS_Store
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# 冗余打包（图片已在仓库中）
+*.zip
+
+# LaTeX 中间产物
+*.aux
+*.log
+*.out
+
+# 空目录占位
+LeetCode/
